@@ -1,27 +1,22 @@
 {
   "name": "homebridge-cool-automation",
-  "description": "Homebridge plugin for Cool Automation - HVAC Systems Controller",
-  "version": "1.0.1",
+  "description": "Homebridge plugin for acwand",
+  "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/nitaybz/homebridge-cool-automation.git"
+    "url": "git://github.com/zeevmindali/acwand.git"
   },
   "license": "GNU",
   "preferGlobal": true,
   "keywords": [
-    "homebridge-plugin",
-    "homebridge-cool-automation",
-    "cool-automation",
-    "cool-master",
-    "coolmaster",
-    "smart-ac"
+    "acwand"
   ],
   "bugs": {
-    "url": "https://github.com/nitaybz/homebridge-cool-automation/issues"
+    "url": "https://github.com/zeevmindali/acwand/issues"
   },
   "engines": {
-    "node": ">=10.17.0",
-    "homebridge": ">=1.1.6"
+    "node": ">=18.17.1",
+    "homebridge": ">=1.7.0"
   },
   "dependencies": {
     "node-persist": "^3.1.3",
